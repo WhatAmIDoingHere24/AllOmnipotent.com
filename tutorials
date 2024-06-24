@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R Code Hub - Tutorials</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom styles for Tutorials page */
+        .container {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>R Code Hub - Tutorials</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="tutorials.html">Tutorials</a>
+        <a href="examples.html">Examples</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Tutorials</h2>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Introduction to R Programming</h5>
+                <p class="card-text">Learn the basics of R programming language.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Data Visualization with ggplot2</h5>
+                <p class="card-text">Explore how to create beautiful visualizations in R using ggplot2.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 R Code Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
