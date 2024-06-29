@@ -100,6 +100,28 @@
     </style>
 </head>
 <body>
+    <h1>Show File-select Fields</h1>
+ 
+        <h3>
+            Show a file-select field which allows
+            multiple files to be chosen:
+        </h3>
+        <form
+            action="/action_page.php"
+            enctype="multipart/form-data"
+        >
+            <label for="myfile"
+                >Select a file:</label
+            >
+            <input
+                type="file"
+                id="myfile"
+                name="myfile"
+                multiple="multiple"
+            />
+            <br /><br />
+            <input type="submit" />
+        </form>
     <header>
         <div class="header-content">
             <h1>Welcome to the World of Hacking, Computers, and Math</h1>
